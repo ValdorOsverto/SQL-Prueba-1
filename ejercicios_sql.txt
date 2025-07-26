@@ -1,0 +1,31 @@
+
+Prueba Técnica de SQL y Análisis de Datos
+
+Instrucciones:
+- Utiliza únicamente SQL para resolver las siguientes preguntas.
+- Algunas preguntas requieren pensar en optimización o diseño de bases de datos.
+
+PREGUNTAS:
+
+1. Lista el nombre de los empleados junto al nombre de su departamento.
+2. ¿Cuántos empleados hay por departamento?
+3. Muestra todos los proyectos y cuántos empleados están asignados a cada uno.
+4. ¿Cuáles empleados no están asignados a ningún proyecto?
+5. ¿Cuál es el salario promedio por departamento?
+6. ¿Qué empleados han participado en más de un proyecto?
+7. ¿Cuál es el proyecto más largo (por días de duración)?
+8. ¿Qué empleados del departamento de TI no están asignados a ningún proyecto?
+9. ¿Cuál es el top 3 de empleados con mayor salario por departamento?
+10. Lista los proyectos activos que empezaron en 2024 y que aún no tienen fecha de fin.
+11. ¿Qué roles únicos existen por proyecto?
+12. ¿Qué empleados fueron contratados antes de 2021 y están asignados a más de un proyecto?
+13. ¿Qué empleado tiene asignado el rol más repetido entre todos los proyectos?
+14. Si decides aumentar un 10% el salario de todos los empleados asignados al proyecto 2, ¿cuál sería el nuevo salario total de esos empleados?
+15. ¿Qué índice agregarías para mejorar la consulta 3 si empleados_proyectos tuviera 5 millones de filas?
+16. ¿Qué alternativa usarías a JOIN si quisieras optimizar la consulta 4 con subconsultas?
+17. ¿Cómo protegerías la información de salario y asignación si esta fuera una base de datos real de empleados con acceso público limitado?
+18. ¿Cómo modificarías la tabla empleados_proyectos para guardar un historial temporal de asignaciones, con fechas de inicio y fin por cada asignación?
+
+ADICIONAL:
+
+Con las preguntas 1,2 y 5 generar algún frontend simple y mostrar esas preguntas en forma de tablas. No debe ser nada muy complejo necesariamente mientras permita visualizar los datos en un front simulando que seria lo que va a visualizar un usuario final.
